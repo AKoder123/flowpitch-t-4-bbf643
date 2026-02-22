@@ -1,0 +1,35 @@
+:root {
+  --bg: #e9f2ff;
+  --card: #ffffff;
+  --accent: #0b66ff;
+  --accent-600: #0757d1;
+  --muted: #4b5563;
+  --shadow: 0 6px 18px rgba(9,30,66,0.08);
+  --radius: 12px;
+  --max-width: 920px;
+}
+
+* { box-sizing: border-box; }
+html,body { height:100%; margin:0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: linear-gradient(180deg,var(--bg), #f6fbff); color:#05203c; }
+#app { min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:20px; }
+.topbar { width:100%; max-width:var(--max-width); display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.deck-title { font-weight:700; color:var(--accent-600); font-size:18px; }
+.progress { color:var(--muted); font-size:14px; }
+.deck { width:100%; max-width:var(--max-width); background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:36px; min-height:420px; display:flex; align-items:center; justify-content:center; position:relative; }
+.slide { width:100%; }
+.slide .title { font-size:28px; font-weight:700; color:var(--accent-600); margin-bottom:10px; }
+.slide .subtitle { font-size:18px; color:#0b2b4a; margin-bottom:18px; }
+.slide .body { font-size:16px; color:#082034; line-height:1.45; }
+.slide ul { margin:12px 0 0 20px; }
+.slide li { margin:8px 0; }
+.speaker { margin-top:14px; padding:12px; border-left:4px solid var(--accent); background:linear-gradient(90deg, rgba(11,102,255,0.05), rgba(11,102,255,0.02)); color:#063058; border-radius:6px; font-size:14px; }
+.notes { display:none; margin-top:12px; padding:12px; background:#f7fafc; border-radius:8px; color:var(--muted); font-size:14px; }
+.controls { width:100%; max-width:var(--max-width); display:flex; justify-content:center; gap:10px; margin-top:16px; }
+.ctrl { background:var(--accent); color:white; border:none; padding:10px 14px; border-radius:8px; font-size:16px; box-shadow:0 6px 12px rgba(11,102,255,0.12); }
+.ctrl[aria-label="Toggle speaker notes"] { background:transparent; color:var(--accent-600); border:1px solid rgba(11,102,255,0.12); box-shadow:none; }
+@media (max-width:640px) {
+  .deck { padding:22px; min-height:360px; }
+  .slide .title { font-size:22px; }
+  .slide .subtitle { font-size:15px; }
+  .ctrl { padding:10px 12px; font-size:15px; }
+}
