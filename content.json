@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "t-4",
+    "title": "Studying5",
+    "theme": "blue",
+    "author": "Auto-generated"
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "title": "How to Study Effectively (Without Studying More Hours)",
+      "subtitle": "Practical techniques to learn more in less time",
+      "paragraphs": ["Focus on method, not hours. Build systems that force retrieval, spacing, and targeted practice."]
+    },
+    {
+      "id": "problem",
+      "title": "The Problem",
+      "bullets": [
+        "Most people 'study,' but don't learn.",
+        "Re-reading notes feels productive, but doesn't stick.",
+        "Highlighting makes you familiar, not fluent.",
+        "Real learning happens when your brain has to retrieve and apply information."
+      ],
+      "speaker_line": "If studying feels easy, it's probably not working.",
+      "notes": "Emphasize that effortful retrieval creates durable memory. Familiarity is a trap: it feels like learning but fails under test conditions."
+    },
+    {
+      "id": "rules",
+      "title": "The 3 Rules of Effective Study",
+      "bullets": [
+        "Active recall: force your brain to pull information out.",
+        "Spaced repetition: revisit material over time, not in one big block.",
+        "Deliberate practice: target what you get wrong, not what you already know."
+      ],
+      "speaker_line": "These three are the difference between 'I saw it' and 'I can do it.'",
+      "notes": "Quickly define each rule with one-sentence examples: flashcards for recall, schedule reviews across days for spacing, and error-focused drills for deliberate practice."
+    },
+    {
+      "id": "active",
+      "title": "Active Recall (What to Do)",
+      "bullets": [
+        "Replace passive methods with active techniques:",
+        "Blurting: close notes → write everything you remember → check gaps.",
+        "Practice questions: use exam-style problems, not summaries.",
+        "Teach-back: explain a concept as if tutoring someone."
+      ],
+      "paragraphs": ["Quick example: Instead of 'read the chapter,' do: 'Answer 10 questions, then mark and fix errors.'"],
+      "notes": "Give a short demo: show a question, attempt answer aloud, then check. Stress that immediate feedback closes the learning loop."
+    },
+    {
+      "id": "spacing",
+      "title": "Spacing + Interleaving (How to Schedule)",
+      "bullets": [
+        "Spacing: shorter sessions over multiple days beats cramming.",
+        "Day 0: learn.",
+        "Day 1: recall.",
+        "Day 3: recall again.",
+        "Day 7: mixed practice.",
+        "Interleaving: mix topics; don't focus on one topic for hours straight.",
+        "It feels harder → it works better."
+      ],
+      "paragraphs": ["Helps you retrieve the right method under pressure (like in exams)."],
+      "notes": "Explain that making practice harder increases transfer. Use the schedule as a minimal workable plan for most learners."
+    },
+    {
+      "id": "feedback",
+      "title": "The Feedback Loop (How to Improve Fast)",
+      "bullets": [
+        "After every session, ask: What did I get wrong? Why?",
+        "What pattern keeps repeating?",
+        "What will I do next session to fix it?",
+        "Rule: Your mistakes are your study plan.",
+        "Spend 70% of time on weak areas, 30% on review."
+      ],
+      "notes": "Encourage learners to keep a short error log. Over time the log shows recurring misconceptions to prioritize."
+    },
+    {
+      "id": "template",
+      "title": "A Simple 45-Min Study Template (Practical)",
+      "bullets": [
+        "0–5 min: set a specific goal (target a clear outcome).",
+        "5–25 min: active recall / practice questions.",
+        "25–35 min: mark answers + write an error log.",
+        "35–45 min: re-attempt wrong questions + schedule next review."
+      ],
+      "speaker_line": "No fancy motivation needed—just a system.",
+      "notes": "This template is repeatable: use it for most short sessions. Emphasize tiny improvements and scheduling the next recall before finishing."
+    },
+    {
+      "id": "closing",
+      "title": "Closing",
+      "paragraphs": [
+        "Effective studying isn't about time. It's about technique.",
+        "If you do only one change: swap re-reading for retrieval (practice questions + recall), then space it out."
+      ],
+      "notes": "End with a single actionable takeaway: start your next study session with a 10-question self-test instead of rereading."
+    }
+  ]
+}
